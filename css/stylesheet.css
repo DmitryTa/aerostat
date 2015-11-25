@@ -219,8 +219,15 @@ iframe{
 }
 .gallery{
 	padding-top: 110px;
-	padding-bottom: 90px;
+	padding-bottom: 100px;
 }
 .gallery h2{
 	margin-bottom: 85px;
+}
+.how-we-fly h2{
+	margin-bottom: 60px;
+}
+.how-we-fly{
+	background-image: url(../img/how-we-fly_bgi.jpg);
+	height: 400px;
 }
