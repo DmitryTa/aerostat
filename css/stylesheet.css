@@ -219,7 +219,8 @@ iframe{
 }
 .gallery{
 	padding-top: 110px;
+	padding-bottom: 90px;
 }
-.row{
-	vertical-align: center;
+.gallery h2{
+	margin-bottom: 85px;
 }
