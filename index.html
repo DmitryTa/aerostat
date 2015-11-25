@@ -91,6 +91,8 @@
 					<img src="img/slider2.jpg" height="245" width="245">
 					<img src="img/slider3.jpg" height="245" width="245">
 					<img src="img/slider4.jpg" height="245" width="245">
+					<img src="img/slider3.jpg" height="245" width="245">
+					<img src="img/slider4.jpg" height="245" width="245">
 				</div>
 			</div>
 		</section>
@@ -111,6 +113,51 @@
 				</div>
 			</div>
 		</div>
+		<section class="price">
+			<div class="container">
+				<div class="row">
+					<div class="col-5">
+						<h2 class="section-title title-left">Рассчитать стоимость</h2>
+						<p>Итак, в назначенное время вы приехали на место полета. Команда уже готовит шар к полету - определяется направление ветра, запускаются горелки.</p>
+						<p>Оболочка начинает заполняться теплым воздухом и аэростат делает первый вздох.</p>
+						<p>Выбирайте, куда мы полетим сегодня!</p>
+					</div>
+					<div class="col-7 text-right">
+						<div class="row">
+							<div class="col-5">
+								<label for="direction">Маршрут полета:</label>
+									<br>
+								<label for="people-count">Количество человек:</label>
+									<br>
+								<label for="fio">Имя и фамилия:</label>
+									<br>
+								<label for="phone-number">Телефон:</label>
+							</div>
+							<div class="col-7">
+							<form class="price-form">
+								<select id="direction">
+									<option value="Всеволожск-Старая Ладога"></option>
+									<option value="Сестрорецк-Парнас" selected></option>
+									<option value="Индивидуальный"></option>
+								</select>
+									<br>
+								<select id="people-count">
+									<option value="1"></option>
+									<option value="2" selected></option>
+									<option value="3"></option>
+									<option value="4"></option>
+								</select>
+									<br>
+								<input type="text" id="fio">
+									<br>
+								<input type="text" id="phone-number">
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	</main>
 	<footer>
 		<script src="js/jquery-1.11.3.min.js"></script>

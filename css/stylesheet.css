@@ -229,5 +229,16 @@ iframe{
 }
 .how-we-fly{
 	background-image: url(../img/how-we-fly_bgi.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
 	height: 400px;
+}
+
+
+.countdown{
+	background-color: #f2f2f2;
+}
+.owl-carousel img{
+	border-radius: 15px;
 }
