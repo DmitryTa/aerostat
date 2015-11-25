@@ -242,3 +242,64 @@ iframe{
 .owl-carousel img{
 	border-radius: 15px;
 }
+.price > .container{
+	padding-top: 90px;
+	padding-bottom: 70px;
+	border-bottom: 2px solid #cccccc;
+}
+.faq{
+	padding-top: 70px;
+	padding-bottom: 75px;
+}
+.price p, .faq p{
+	font-size: 18px;
+	line-height: 24px;
+	padding-right: 42px;
+}
+.faq-mail{
+	text-decoration: underline;
+}
+.faq-titles{
+	font-size: 26px;
+	font-weight: 500;
+	color: #444444;
+	padding-top: 25px;
+}
+.faq-question{
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 24px;
+	padding-left: 55px;
+	padding-top: 10px;
+	position: relative;
+}
+.faq-question:before{
+	content: "";
+	background-image: url(../img/icons.png);
+	background-position: -566px 0; 
+	width: 40px;
+	height: 34px;
+	position: absolute;
+	left: 0;
+	top: 20px;
+}
+.faq-answer p{
+	font-size: 16px;
+	line-height: 22px;
+	padding-left: 80px;
+}
+.about-us-numbers{
+	background-image: url(../img/about-us_bgi.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 65px 120px;
+}
+.circle-number{
+	font-size: 42px;
+	font-weight: 500;
+	padding: 70px 35px;
+	color: #ffffff;
+	border: 6px solid #ffffff;
+	border-radius: 50%;
+}
