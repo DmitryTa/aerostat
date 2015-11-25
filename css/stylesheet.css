@@ -288,18 +288,84 @@ iframe{
 	line-height: 22px;
 	padding-left: 80px;
 }
-.about-us-numbers{
+.about-us{
 	background-image: url(../img/about-us_bgi.jpg);
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
-	padding: 65px 120px;
+	padding: 65px 0;
 }
+.about-us .container{
+	padding-right: 120px;
+	padding-left: 120px;
+}
+.about-us .col-3{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.about-us .col-3:last-child,
+.about-us .col-3:first-child {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
 .circle-number{
 	font-size: 42px;
 	font-weight: 500;
-	padding: 70px 35px;
+	padding: 52px 20px;
 	color: #ffffff;
 	border: 6px solid #ffffff;
 	border-radius: 50%;
+}
+.about-us p{
+	font-size: 24px;
+	font-weight: 500;
+	color: #ffffff;
+	padding: 0 20px;
+}
+.instructors{
+	padding-top: 95px;
+	padding-bottom: 100px;
+}
+.instructors h2{
+	margin-bottom: 75px;
+}
+.instructors-name{
+	font-size: 22px;
+	font-weight: 500;
+	margin-bottom: 0px;
+}
+.instructors-caption{
+	font-size: 18px;
+	font-weight: 500;
+    margin-top: 10px;
+}
+.fon{
+	background-repeat: no-repeat;
+    background-position: center 0;
+}
+.fon1-2{
+	background-image: url(../img/fon1-2.jpg);
+}
+.fon3{
+	background-image: url(../img/fon3.jpg);
+}
+.fon4{
+	background-image: url(../img/fon4.jpg);
+}
+.instructors img:hover{
+	visibility: hidden;
+	transition-duration: 2000;
+}
+.reviews h2{
+	margin-bottom: 55px;
+}
+.revews-name{
+	font-size: 22px;
+	font-weight: 500;
+}
+.blockquote p{
+	font-size: 18px;
+	line-height: 24px;
+	color: #353535;
 }
