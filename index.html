@@ -16,23 +16,23 @@
 
 	<header>
 	   <div class="container">
-	    <div class="row">
-	     <div class="col-4">
-	    <a class="logo" href="javascript:void(0)">Монгольфьеркин и КО</a>
-           </div>
-           <div class="col-8 text-right">
-		<nav class="nav-primary">
-			<ul class="list-inline">
-				<li><a href="#">Кто мы</a></li>
-				<li><a href="#">Фотографии</a></li>
-				<li><a href="#">План полета</a></li>
-				<li><a href="#">Заказать</a></li>
-				<li><a href="#">Команда</a></li>
-				<li><a href="#">Контакты</a></li>
-			</ul>
-		</nav>
-		</div>
-		</div>
+	    	<div class="row">
+	     		<div class="col-4">
+	    			<a class="logo" href="javascript:void(0)">Монгольфьеркин и КО</a>
+           		</div>
+          		 <div class="col-8 text-right">
+					<nav class="nav-primary">
+						<ul class="list-inline">
+							<li><a href="#brief" class="smoothScroll">Кто мы</a></li>
+							<li><a href="#photo" class="smoothScroll">Фотографии</a></li>
+							<li><a href="#fly" class="smoothScroll">План полета</a></li>
+							<li><a href="#buy" class="smoothScroll">Заказать</a></li>
+							<li><a href="#we" class="smoothScroll">Команда</a></li>
+							<li><a href="#contact" class="smoothScroll">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
 		</div>
 	</header>
 	<main>
@@ -41,7 +41,7 @@
         <section class="promo-block">
 		<div class="container text-center">
 			<h1 class="promo-block-title">Организация полетов<br> на воздушных шарах</h1>
-			<a class="promo-block-btn" href="javascript:void(0)">Подробнее</a>
+			<a class="promo-block-btn smoothScroll" href="#brief">Подробнее</a>
 		</div>
 		</section>
 
@@ -66,7 +66,7 @@
 
 		<!-- Brief -->
 
-	<div class="container">
+	<div class="container"  id="brief">
 		<div class="brief">
 			<div class="row">
 				<div class="col-4">
@@ -84,7 +84,7 @@
 
 		<!-- Gallery -->
 
-		<section class="gallery">
+		<section class="gallery" id="photo">
 			<div class="container">
 				<h2 class="section-title title-center">Галерея</h2>
 				<div class="owl-carousel" id="slider">
@@ -97,7 +97,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="how-we-fly">
+		<section class="how-we-fly" id="fly">
 			<div class="container">
 				<h2 class="section-title title-center">Как проходят полеты</h2>	
 			</div>
@@ -105,14 +105,14 @@
 
 		<!-- Countdown -->
 
-		<div class="countdown">	
+		<div class="countdown-block">	
 			<div class="container">
 				<div class="row">
 					<div class="col-6">
 						<p class="countdown-text">До ближайшего полета:</p>
 					</div>
-					<div class="col-6">
-						<div id="countdown"></div>		
+					<div class="col-6 text-center">
+						<div class="countdown" id="countdown"></div>		
 					</div>
 				</div>
 			</div>
@@ -120,7 +120,7 @@
 
 		<!-- Price-form -->
 
-		<section class="price">
+		<section class="price" id="buy">
 			<div class="container">
 				<div class="row">
 					<div class="col-5">
@@ -232,7 +232,7 @@
 
 		<!-- About-Us -->
 
-		<section class="about-us">
+		<section class="about-us" id="we">
 			<div class="container">
 					<div class="row text-center">
 					<div class="col-3">
@@ -284,6 +284,9 @@
 				</div>
 			</div>
 		</section>
+
+		<!-- Reviews -->
+
 		<section class="reviews">
 			<div class="container">
 				<h2 class="section-title title-center">Отзывы</h2>
@@ -301,16 +304,64 @@
 				</div>
 			</div>
 		</section>
+
+		<!-- Contacts -->
+
+		<section class="contacts" id="contact">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-12">
+						<p class="airport-address-text">Запишите адрес аэропорта</p>
+						<p class="airport-address">Всеволожск, улица Аэродромная 19а</p>
+					</div> 
+				</div>
+				<div class="row text-left">
+					<div class="col-4">
+						<p class="office contacts-offices">Наш офис в Питере</p>
+						<p class="office contacts-offices-address">Литейный 14Б<br>12:00-19:00</p>
+						<p class="office contacts-offices-phone">756 65 65</p>
+					</div>
+					<div class="col-4">
+						<p class="office contacts-offices">Наш офис во Всеволожске</p>
+						<p class="office contacts-offices-address">Аэродромная 19а<br>12:00-19:00</p>
+						<p class="office contacts-offices-phone">756 65 65</p>
+					</div>
+					<div class="col-4">
+						<p class="office contacts-mail">mnebyvnebo@gmail.com</p>
+					</div>
+				</div>
+			</div>
+		</section>
 	</main>
-	<footer>
+
+	<!-- Footer -->
+
+<footer>
+	 <div class="container">
+	    	<div class="row">
+	     		<div class="col-4">
+	    			<a class="logo" href="javascript:void(0)">Монгольфьеркин и КО</a>
+           		</div>
+          		 <div class="col-8 text-right">
+					<nav class="nav-primary">
+						<ul class="list-inline">
+							<li><a href="#brief" class="smoothScroll">Кто мы</a></li>
+							<li><a href="#photo" class="smoothScroll">Фотографии</a></li>
+							<li><a href="#fly" class="smoothScroll">План полета</a></li>
+							<li><a href="#buy" class="smoothScroll">Заказать</a></li>
+							<li><a href="#we" class="smoothScroll">Команда</a></li>
+							<li><a href="#contact" class="smoothScroll">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
 		<script src="js/jquery-1.11.3.min.js"></script>
 		<script src="js/owl.carousel.min.js"></script>
 		<script src="js/scripts.js"></script>
 		<script src="js/jquery.plugin.min.js"></script>
 		<script src="js/jquery.countdown.min.js"></script>
 		<script src="js/jquery.countdown-ru.js"></script>
-
-
 	</footer>
 </body>
 </html>
