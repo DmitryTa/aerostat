@@ -235,16 +235,21 @@ iframe{
 	margin-bottom: 85px;
 }
 .how-we-fly h2{
-	margin-bottom: 60px;
+	margin-bottom: 200px;
 }
 .how-we-fly{
 	background-image: url(../img/how-we-fly_bgi.jpg);
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
-	height: 400px;
+	min-height: 400px;
+	z-index: 1;
 }
-
+.path{
+	background-image: url(../img/Path.png);
+	z-index: 20;
+	position: absolute;
+}
 
 .countdown-block{
 	background-color: #f2f2f2;
