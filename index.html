@@ -130,45 +130,57 @@
 						<p>Выбирайте, куда мы полетим сегодня!</p>
 					</div>
 					<div class="col-7 text-right">
-						<div class="row">
-							<div class="col-5 text-left">
-								<label for="direction">Маршрут полета:</label>
-									<br>
-								<label for="people-count">Количество человек:</label>
-									<br>
-								<label for="fio">Имя и фамилия:</label>
-									<br>
-								<label for="phone-number">Телефон:</label>
-							</div>
-							<div class="col-7">
-							<form class="price-form">
-								<select id="direction">
-									<option value="Всеволожск-Старая Ладога"></option>
-									<option value="Сестрорецк-Парнас" selected></option>
-									<option value="Индивидуальный"></option>
-								</select>
-									<br>
-								<select id="people-count">
-									<option value="1"></option>
-									<option value="2" selected></option>
-									<option value="3"></option>
-									<option value="4"></option>
-								</select>
-									<br>
-								<input type="text" id="fio">
-									<br>
-								<input type="text" id="phone-number">
-								</form>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-6">
-								<p class="price-result">Стоимость: <span class="price-result-number">9000 Р</span></p>
-							</div>
-							<div class="col-6">
-								<button class="price-btn">Полетели!</button>
-							</div>
-						</div>
+					  <form class="price-form">
+					    <div class="row">
+					      <div class="col-5 text-left">
+					        <label for="direction">Маршрут полета:</label>
+					      </div>
+					      <div class="col-7">
+					        <select id="direction">
+					          <option value="Всеволожск - Старая Ладога">Всеволожск - Старая Ладога</option>
+					          <option value="Сестрорецк - Парнас" selected>Сестрорецк - Парнас</option>
+					          <option value="Индивидуальный">Индивидуальный</option>
+					        </select>
+					      </div>
+					    </div>
+					    <div class="row">
+					      <div class="col-5 text-left">
+					        <label for="people-count">Количество человек:</label>
+					      </div>
+					      <div class="col-7">
+					        <select id="people-count">
+					          <option value="1">1</option>
+					          <option value="2" selected>2</option>
+					          <option value="3">3</option>
+					          <option value="4">4</option>
+					        </select>
+					      </div>
+					    </div>
+					    <div class="row">
+					      <div class="col-5 text-left">
+					        <label for="name">Имя и фамилия:</label>
+					      </div>
+					      <div class="col-7">
+					        <input type="text" id="name" class="fio-form">
+					      </div>
+					    </div>
+					    <div class="row">
+					      <div class="col-5 text-left">
+					        <label for="phone-number">Телефон:</label>
+					      </div>
+					      <div class="col-7">
+					        <input type="text" id="phone-number" class="number-form">
+					      </div>
+					    </div>
+					    <div class="row">
+					      <div class="col-6 text-left">
+					        <span class="price-result">Стоимость: </span><span class="price-result-number">9000 Р</span></p>
+					      </div>
+					      <div class="col-6">
+					        <button class="price-btn">Полетели!</button>
+					      </div>
+					    </div>
+					  </form>
 					</div>
 				</div>
 			</div>
@@ -328,6 +340,7 @@
 					</div>
 					<div class="col-4">
 						<p class="office contacts-mail">mnebyvnebo@gmail.com</p>
+						<a href="" class="icon-vkontakte"></a>
 					</div>
 				</div>
 			</div>
