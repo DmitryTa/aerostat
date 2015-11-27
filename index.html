@@ -2,13 +2,14 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Монгольфьеркин</title>
+	<link rel="shortcut icon" href="img/balloon.png" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
 	<link rel="stylesheet" type="text/css" href="css/jquery.countdown.css">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 </head>
 <body>
 
@@ -47,8 +48,9 @@
 
 
 		<!-- Features -->
-		<div class="container">
-			<div class="features row text-left">
+
+		<div class="features row text-left">
+			<div class="container">
 				<div class="col-3">
 					<p class="feature-first">Современный надежный шар</p>
 				</div>
@@ -66,8 +68,8 @@
 
 		<!-- Brief -->
 
-	<div class="container"  id="brief">
-		<div class="brief">
+	<div class="brief">
+		<div class="container"  id="brief">
 			<div class="row">
 				<div class="col-4">
 				     <h2 class="section-title title-left">Вкратце</h2>
@@ -105,13 +107,13 @@
 				<div class="path"></div>	
 				<h2 class="section-title title-center">Как проходят полеты</h2>
 
-					<ul id="scene">
-						<li class="layer" data-depth="0.00">1<img src="img/balloon.png" height="65" width="44"></li>
-						<li class="layer" data-depth="0.20">2<img src="img/balloon.png" height="65" width="44"></li>
-						<li class="layer" data-depth="0.40">3<img src="img/balloon.png"></li>
-						<li class="layer" data-depth="0.60">4<img src="img/balloon.png"></li>
-						<li class="layer" data-depth="0.80">5<img src="img/balloon.png"></li>
-						<li class="layer" data-depth="1.00">6<img src="img/balloon.png"></li>
+					<ul id="scene" class="list-inline">
+						<li class="layer ballon-description" data-depth="0.40">Взлет<div class="ballon-number">1</div></li>
+						<li class="layer ballon-description" data-depth="0.30">Набираем высоту<div class="ballon-number">2</div></li>
+						<li class="layer ballon-description" data-depth="0.40">Летаем<div class="ballon-number">3</div></li>
+						<li class="layer ballon-description" data-depth="0.40">Снижаемся<div class="ballon-number">4</div></li>
+						<li class="layer ballon-description" data-depth="0.30">Взлет<div class="ballon-number">5</div></li>
+						<li class="layer ballon-description" data-depth="0.40">Садимся<div class="ballon-number">6</div></li>
 					</ul>	
 			</div>
 		</section>
@@ -187,7 +189,7 @@
 					    </div>
 					    <div class="row">
 					      <div class="col-6 text-left">
-					        <span class="price-result">Стоимость: </span><span class="price-result-number">9000 Р</span></p>
+					        <span class="price-result">Стоимость: </span><span class="price-result-number">9000 Р</span>
 					      </div>
 					      <div class="col-6">
 					        <button class="price-btn">Полетели!</button>
@@ -208,14 +210,14 @@
 						<h2 class="section-title title-left">Способы оплаты</h2>
 						<h3 class="faq-titles">Наличными</h3>
 						<p>Вы можете оплатить услугу, приехав к нам в офис. Для этого вам необходимо предупредить нас об этом:</p>
-						<p>— по телефону: +7 (812) 275-74-87<br>
-						— по почте: <span class="faq-mail">mnebyvnebo@gmail.com</span></p>
+						<p>— по телефону: <a href="#" class="faq-phone">+7 (812) 275-74-87</a><br>
+						— по почте: <a href="#" class="faq-mail">mnebyvnebo@gmail.com</a></p>
 						<p>Оплачивая услугу в офисе, Вы получаете все документы, подтверждающие оплату.
 						</p>
 						<h3 class="faq-titles">Курьеру</h3>
 						<p>Вы можете оплатить услугу в любом районе города и в удобное для Вс время, вызвав курьера. Для этого Вам необходимо связаться с нашими сотрудниками и сообщить об этом:</p>
-						<p>— по телефону: +7 (812) 275-74-87<br>
-						— или по почте: <span class="faq-mail">mnebyvnebo@gmail.com</span></p>
+						<p>— по телефону: <a href="#" class="faq-phone">+7 (812) 275-74-87</a><br>
+						— или по почте: <a href="#" class="faq-mail">mnebyvnebo@gmail.com</a></p>
 						<p>Оплачивая услугу курьеру, Вы получаете все документы, подтверждающие оплату.
 					</div>
 					<div class="col-6">
@@ -352,9 +354,12 @@
 						<p class="office contacts-offices-phone">756 65 65</p>
 					</div>
 					<div class="col-4">
-						<p class="office contacts-mail">mnebyvnebo@gmail.com</p>
-						<a href="" class="icon-facebook-squared"></a>
-						<i class="fa fa-vk"></i>
+						<p><a href="#" class="office contacts-mail">mnebyvnebo@gmail.com</a></p>
+					<div class="icons-social">
+						<a href="#" class="icon-facebook-squared"></a>
+						<a href="https://github.com/DmitryTa" class="icon-github-squared"></a>
+						<a href="https://vk.com/tsytseron" class="icon-vkontakte"></a>
+					</div>	
 					</div>
 				</div>
 			</div>
@@ -383,12 +388,13 @@
 				</div>
 			</div>
 		</div>
-		<script src="js/jquery-1.11.3.min.js"></script>
-		<script src="js/owl.carousel.min.js"></script>
-		<script src="js/scripts.js"></script>
-		<script src="js/jquery.plugin.min.js"></script>
-		<script src="js/jquery.countdown.min.js"></script>
-		<script src="js/jquery.countdown-ru.js"></script>
 	</footer>
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.parallax.min.js"></script> 
+	<script src="js/jquery.plugin.min.js"></script>
+	<script src="js/jquery.countdown.min.js"></script>
+	<script src="js/jquery.countdown-ru.js"></script>
+	<script src="js/scripts.js"></script>
 </body>
 </html>

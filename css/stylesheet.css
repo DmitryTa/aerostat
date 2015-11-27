@@ -3,8 +3,7 @@
   src: url('../fonts/fontello.eot?43779094');
   src: url('../fonts/fontello.eot?43779094#iefix') format('embedded-opentype'),
        url('../fonts/fontello.woff?43779094') format('woff'),
-       url('../fonts/fontello.ttf?43779094') format('truetype'),
-       url('../fonts/fontello.svg?43779094#fontello') format('svg');
+       url('../fonts/fontello.ttf?43779094') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -81,7 +80,7 @@ ul.list-inline{padding:0; margin:0}
 ul.list-inline>li{display: inline-block;} 
 .inline {display: inline}
 .container{ 
-	width: 1150px; 
+	width: 1200px; 
 	margin: 0 auto;
 	overflow: hidden;
   	box-sizing: border-box;
@@ -159,7 +158,9 @@ header .row{
     height: 29px;
     position: absolute;
     bottom: -65px;
-    left: 53px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     display: block;
 }
 .features{
@@ -169,9 +170,9 @@ header .row{
 .features p{
 	font-size: 18px;
 	font-weight: 500;
-	margin-right: 40px;
 	padding: 0 0 0 100px;
     position: relative;
+    margin-bottom: 20px;
 }
 .features .col-3:last-child{
 	margin-right: 0;
@@ -259,7 +260,10 @@ header .row{
 	line-height: 24px;
 }
 iframe{
-	box-shadow: 0px 30px 2px -20px #e6e6e6;
+	box-shadow: 0px 30px 0px -20px #e6e6e6;
+}
+.brief .col-8{
+	padding-bottom: 30px;
 }
 .gallery{
 	padding-top: 110px;
@@ -288,8 +292,45 @@ iframe{
 	left: 0;
 	z-index: 20;
 }
-
-
+.ballon-description{
+	font-size: 18px;
+	font-weight: 500;
+	padding-bottom: 60px;
+	position: relative;
+}
+.ballon-description:after{
+	content: "";
+	background-image: url(../img/balloon.png);
+	background-repeat: no-repeat;
+	width: 44px;
+	height: 65px;
+	display: block;
+	position: absolute;
+	top: 45px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: 1;
+}
+.ballon-number{
+	font-size: 20px;
+	font-weight: 500;
+	color: #ffffff;
+	padding-top: 35px;
+	z-index: 10;
+	position: relative;
+}
+.how-we-fly li{
+	text-align: center;
+	margin-right: 30px;
+}
+.path{
+	background-image: url(../img/Path.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: absolute;
+}
 
 
 
@@ -342,7 +383,7 @@ label{
 }
 input{
  	height: 39px;
-	width: 367px;
+	width: 100%;
 	margin-bottom: 20px;
 	border: 1px solid #d5d5d5;
 	border-radius: 4px;
@@ -401,7 +442,11 @@ input{
 	padding-right: 42px;
 }
 .faq-mail{
-	text-decoration: underline;
+	color: #444444;
+}
+.faq-phone{
+	color: #444444;
+	text-decoration: none;
 }
 .faq-titles{
 	font-size: 26px;
@@ -456,10 +501,12 @@ input{
 .circle-number{
 	font-size: 42px;
 	font-weight: 500;
-	padding: 52px 20px;
+	width: 170px;
+	height: 170px;
 	color: #ffffff;
 	border: 6px solid #ffffff;
 	border-radius: 50%;
+	line-height: 170px;
 }
 .about-us p{
 	font-size: 24px;
@@ -499,10 +546,10 @@ input{
 }
 .instructors img{
 	border-radius: 50%;
-	transition: visibility 0.5s linear;
+	transition: opacity 0.7s linear 0.5s;
 }
 .instructors img:hover{
-	visibility: hidden;
+	opacity: 0;
 }
 .reviews{
 	padding-top: 30px;
@@ -584,7 +631,10 @@ input{
 	font-weight: 500;
 	text-decoration: underline;
 	position: relative;
+	color: #444444;
+	line-height: 40px;
 }
+
 .contacts-mail:before{
 	content: "";
 	background-image: url(../img/icons.png);
@@ -593,7 +643,19 @@ input{
 	height: 17px;
 	position: absolute;
 	left: 15px;
-	top: 7px;
+	top: 5px;
+}
+.icons-social{
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.icons-social a{
+	font-size: 24px;
+	text-decoration: none;
+	color: #444444;
+}
+.icons-social a:hover{
+	opacity: 0.7;
 }
 footer{
 	background-color: #2c2c2c;
@@ -606,4 +668,8 @@ footer a {
 }
 footer .row{
 	padding: 5px 0;
-
+}
+.slider-arrow{
+	background-image: url(../img/arrow-slider.png);
+	background-repeat: no-repeat;
+}
