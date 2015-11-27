@@ -272,25 +272,46 @@ iframe{
 .gallery h2{
 	margin-bottom: 85px;
 }
+.owl-carousel{
+	width: 1100px;
+	margin: 0 auto;
+}
+/*.owl-carousel img{*/
+	border-radius: 15px;
+}
 .how-we-fly h2{
-	margin-bottom: 200px;
+	margin-bottom: 150px;
+	padding-bottom: 50px;
+	font-size: 50px;
 }
 .how-we-fly{
 	background-image: url(../img/how-we-fly_bgi.jpg);
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
-	min-height: 400px;
+	padding-top: 30px;
+	padding-bottom: 100px;
+	
 	position: relative;
 	z-index: 1;
 }
 .how-we-fly:before{
 	content: "";
-	background-image: url(../img/Path.png);
+	background-image: url(../img/path.png);
+	-webkit-background-size: cover;
+	background-size: cover;
 	position: absolute;
 	display: block;
 	left: 0;
+	bottom: 20px;
 	z-index: 20;
+}
+/*.path{*/
+	background-image: url(../img/path.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 176px;
 }
 .ballon-description{
 	font-size: 18px;
@@ -323,6 +344,32 @@ iframe{
 .how-we-fly li{
 	text-align: center;
 	margin-right: 30px;
+	/*position: absolute;*/
+	/*z-index: 30;*/
+}
+.how-we-fly ul{
+	position: relative;
+
+}
+.how-we-fly li:nth-child(2){
+	left: 70px;
+	top: -60px;
+}
+.how-we-fly li:nth-child(3){
+	left: 160px;
+	top: -130px;
+}
+.how-we-fly li:nth-child(2){
+	left: 760px;
+	top: -60px;
+}
+.how-we-fly li:nth-child(2){
+	left: 40px;
+	top: -60px;
+}
+.how-we-fly li:nth-child(2){
+	left: 40px;
+	top: -60px;
 }
 .path{
 	background-image: url(../img/Path.png);
@@ -351,9 +398,6 @@ iframe{
 }
 .countdown{
 	padding-top: 32px;
-}
-.owl-carousel img{
-	border-radius: 15px;
 }
 .price > .container{
 	padding-top: 90px;
@@ -484,6 +528,9 @@ input{
 	background-size: cover;
 	padding: 65px 0;
 }
+.about-us p{
+	margin-bottom: 0;
+}
 .about-us .container{
 	padding-right: 120px;
 	padding-left: 120px;
@@ -492,10 +539,11 @@ input{
 	padding-left: 30px;
 	padding-right: 30px;
 }
-.about-us .col-3:last-child,
+.about-us .col-3:last-child{
+	padding-right: 25px;
+}
 .about-us .col-3:first-child {
 	padding-left: 25px;
-	padding-right: 25px;
 }
 
 .circle-number{

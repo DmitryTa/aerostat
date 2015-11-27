@@ -7,8 +7,7 @@ $(document).ready(function(){
 		autoplay: true,
 		autoplayTimeout: 4500,
 		nav: true,
-		dotsEach: true,
-		navText: [class="slider-arrow"],
+		navText: false,
 	});
 
 	$("#countdown").countdown({
