@@ -32,11 +32,12 @@ $('#scene').parallax({
   invertX: false,
   invertY: true,
   limitX: false,
-  limitY: 10,
-  scalarX: 15,
-  scalarY: 8,
+  limitY: false,
+  scalarX: 35,
+  scalarY: 28,
   frictionX: 0.2,
   frictionY: 0.8,
-  originX: 0.0,
-  originY: 1.0
+  originX: 0.5,
+  originY: 0.5,
+  
 });

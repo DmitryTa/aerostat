@@ -276,42 +276,36 @@ iframe{
 	width: 1100px;
 	margin: 0 auto;
 }
-/*.owl-carousel img{*/
+.owl-carousel img{
 	border-radius: 15px;
 }
 .how-we-fly h2{
-	margin-bottom: 150px;
-	padding-bottom: 50px;
-	font-size: 50px;
+	margin-bottom: 90px;
 }
-.how-we-fly{
+
+.how-we-fly-parallax{
 	background-image: url(../img/how-we-fly_bgi.jpg);
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
-	padding-top: 30px;
+	background-position: 20% 0;
+	padding-top: 60px;
 	padding-bottom: 100px;
-	
+	height: 400px;
 	position: relative;
 	z-index: 1;
 }
-.how-we-fly:before{
-	content: "";
-	background-image: url(../img/path.png);
-	-webkit-background-size: cover;
-	background-size: cover;
-	position: absolute;
-	display: block;
-	left: 0;
-	bottom: 20px;
-	z-index: 20;
+.how-we-fly .container{
+	overflow: visible;
 }
-/*.path{*/
+.path{
 	background-image: url(../img/path.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	width: 100%;
-	height: 176px;
+	height: 186px;
+	position: relative;
+	top: 70px;
 }
 .ballon-description{
 	font-size: 18px;
@@ -351,32 +345,30 @@ iframe{
 	position: relative;
 
 }
-.how-we-fly li:nth-child(2){
+.how-we-fly li:nth-child(1){
+	position: absolute;
 	left: 70px;
-	top: -60px;
+	top: -100px;
+}
+.how-we-fly li:nth-child(2){
+	position: absolute;
+	left: 300px;
+	top: -160px;
 }
 .how-we-fly li:nth-child(3){
-	left: 160px;
-	top: -130px;
-}
-.how-we-fly li:nth-child(2){
-	left: 760px;
-	top: -60px;
-}
-.how-we-fly li:nth-child(2){
-	left: 40px;
-	top: -60px;
-}
-.how-we-fly li:nth-child(2){
-	left: 40px;
-	top: -60px;
-}
-.path{
-	background-image: url(../img/Path.png);
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-	background-size: cover;
 	position: absolute;
+	left: 590px;
+	top: -260px;
+}
+.how-we-fly li:nth-child(4){
+	position: absolute;
+	left: 820px;
+	top: -154px;
+}
+.how-we-fly li:nth-child(5){
+	position: absolute;
+	left: 1050px;
+	top: -80px;
 }
 
 
@@ -621,7 +613,7 @@ input{
 	-webkit-background-size: cover;
 	background-size: cover;
 	padding-top: 55px;
-	padding-bottom: 70px;
+	padding-bottom: 38px;
 }
 .airport-address-text{
 	font-size: 26px;
