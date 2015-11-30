@@ -291,9 +291,6 @@ iframe{
 	background-position: 20% 0;
 	padding-top: 60px;
 	padding-bottom: 100px;
-	height: 400px;
-	position: relative;
-	z-index: 1;
 }
 .how-we-fly .container{
 	overflow: visible;
@@ -310,67 +307,51 @@ iframe{
 .ballon-description{
 	font-size: 18px;
 	font-weight: 500;
-	padding-bottom: 60px;
 	position: relative;
-}
-.ballon-description:after{
-	content: "";
-	background-image: url(../img/balloon.png);
-	background-repeat: no-repeat;
-	width: 44px;
-	height: 65px;
-	display: block;
-	position: absolute;
-	top: 45px;
-	left: 0;
-	right: 0;
-	margin: 0 auto;
-	z-index: 1;
+	text-align: center;
+	margin-bottom: 20px;
 }
 .ballon-number{
 	font-size: 20px;
 	font-weight: 500;
 	color: #ffffff;
-	padding-top: 35px;
-	z-index: 10;
-	position: relative;
+	background-image: url(../img/balloon.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding: 17px 10px 24px 10px;
 }
-.how-we-fly li{
-	text-align: center;
-	margin-right: 30px;
-	/*position: absolute;*/
-	/*z-index: 30;*/
-}
-.how-we-fly ul{
-	position: relative;
 
-}
-.how-we-fly li:nth-child(1){
+.fly__scene-one{
 	position: absolute;
 	left: 70px;
 	top: -100px;
+	
 }
-.how-we-fly li:nth-child(2){
+.fly__scene-two{
 	position: absolute;
 	left: 300px;
 	top: -160px;
 }
-.how-we-fly li:nth-child(3){
+.fly__scene-three{
 	position: absolute;
 	left: 590px;
 	top: -260px;
 }
-.how-we-fly li:nth-child(4){
+.fly__scene-four{
 	position: absolute;
 	left: 820px;
 	top: -154px;
 }
-.how-we-fly li:nth-child(5){
+.fly__scene-five{
 	position: absolute;
 	left: 1050px;
-	top: -80px;
+	top: -100px;
 }
-
+#scene{
+	margin-top: 25px;
+	position: relative;
+	height: 100px;
+}
 
 
 
@@ -606,6 +587,9 @@ input{
 	font-size: 18px;
 	line-height: 24px;
 	color: #353535;
+}
+.reviews img{
+	border-radius: 50%;
 }
 .contacts{
 	background-image: url(../img/contacts_bgi.jpg);
