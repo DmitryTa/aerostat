@@ -26,19 +26,11 @@
   margin-left: .2em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- 
-  
 }
- 
-.icon-facebook-squared:before { content: '\e800'; } /* '' */
-.icon-html5:before { content: '\e801'; } /* '' */
-.icon-github-squared:before { content: '\e802'; } /* '' */
-.icon-vkontakte:before { content: '\e803'; } /* '' */
-
-
-
-
-
+.icon-facebook-squared:before { content: '\e800'; }
+.icon-html5:before { content: '\e801'; } 
+.icon-github-squared:before { content: '\e802'; } 
+.icon-vkontakte:before { content: '\e803'; } 
 
 /*  Grid  */
 
@@ -87,7 +79,7 @@ ul.list-inline>li{display: inline-block;}
 }
 body{
 	font-family: 'Roboto', sans-serif;
-	min-width: 1150px;
+	min-width: 1200px;
 }
 p{
 	color: #444444;
@@ -273,7 +265,7 @@ iframe{
 	margin-bottom: 85px;
 }
 .owl-carousel{
-	width: 1100px;
+	width: 90.5%;
 	margin: 0 auto;
 }
 .owl-carousel img{
@@ -302,7 +294,7 @@ iframe{
 	width: 100%;
 	height: 186px;
 	position: relative;
-	top: 70px;
+	top: 40px;
 }
 .ballon-description{
 	font-size: 18px;
@@ -323,34 +315,38 @@ iframe{
 
 .fly__scene-one{
 	position: absolute;
-	left: 70px;
-	top: -100px;
+	left: 8%;
+	top: -90%;
 	
 }
 .fly__scene-two{
 	position: absolute;
-	left: 300px;
-	top: -160px;
+	left: 23%;
+	top: -150%;
 }
 .fly__scene-three{
 	position: absolute;
-	left: 590px;
-	top: -260px;
+	left: 48%;
+	top: -260%;
 }
 .fly__scene-four{
 	position: absolute;
-	left: 820px;
-	top: -154px;
+	left: 71%;
+	top: -140%;
 }
 .fly__scene-five{
 	position: absolute;
-	left: 1050px;
-	top: -100px;
+	left: 92%;
+	top: -90%;
 }
 #scene{
-	margin-top: 25px;
+	width: 1100px;
+	margin: 25px auto 0;
 	position: relative;
-	height: 100px;
+	height: 110px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 
@@ -696,4 +692,52 @@ footer .row{
 .slider-arrow{
 	background-image: url(../img/arrow-slider.png);
 	background-repeat: no-repeat;
+}
+::webkit-scrollbar {
+
+width: 0px;
+
+}
+
+/*992px-1200px*/
+
+@media(min-width: 992px) and (max-width: 1200px){
+	body{
+		font-
+		min-width: 992px;
+	}
+	.logo {
+		font-size: 21px;
+	}
+	.nav-primary li{
+		font-size: 17px;
+		margin-right: 10px;
+	}
+	.container{ 
+		width: 992px; 
+	}
+	.brief .col-8{
+		padding-top: 20px;
+	}
+	#scene{
+		width: 950px;
+	}
+	.path{
+		top: 50px;
+	}
+	.countdown-amount {
+    font-size: 30px;
+	}
+	.countdown-period {
+	font-size: 20px;
+	} 
+	select, input{
+	 	width: 90%;
+	 }
+	label, .price-result{
+		margin-left: 40px;
+	}
+	.price-result-number{
+		font-size: 34px;
+	}
 }

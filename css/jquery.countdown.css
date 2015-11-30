@@ -36,20 +36,18 @@
 	width: 14%;
 }
 .countdown-section {
-	
-	
 	font-size: 75%;
 	text-align: center;
 }
 .countdown-amount {
     font-size: 32px;
     display: inline-block;
-    margin-right: 6px;
+    margin-left: 29px;
 }
 .countdown-period {
 	font-size: 22px;
     display: inline-block;
-    margin-right: 29px;
+    margin-left: 6px;
     text-transform: lowercase;
 }
 .countdown-descr {
