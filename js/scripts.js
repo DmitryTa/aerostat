@@ -8,6 +8,30 @@ $(document).ready(function(){
 		autoplayTimeout: 4500,
 		nav: true,
 		navText: false,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        750:{
+            items:3,
+            nav:false,
+            loop:true,
+            dots: true,
+            dotsEach: true
+        },
+        970:{
+            items:4,
+            nav:true,
+            loop:true,
+            margin: 12,
+        },
+        1200:{
+            items:4,
+            nav:true,
+            loop:false
+        }
+    }
 	});
 
 	$("#countdown").countdown({
