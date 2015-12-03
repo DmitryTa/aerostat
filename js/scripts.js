@@ -38,6 +38,18 @@ $(document).ready(function(){
 		until: new Date(2015, 11, 31),
 	});
 
+  $('.tab-link').on('click', tabToggle);
+    function tabToggle(e) {
+      e.preventDefault();
+
+      $('.tab-link').removeClass('tab-link-active');
+      $(this).addClass('tab-link-active');
+
+      $('.tab-item').removeClass('tab-item-active');
+      $(this.hash).addClass('tab-item-active')
+    }
+
+
 });
 $('.smoothScroll').click(function(event) {
     event.preventDefault();
@@ -65,3 +77,26 @@ $('#scene').parallax({
   originY: 0.5,
   
 });
+ 
+$(document).ready(function(){
+ $('.faq-tabs-question').on('click', tabToggle);
+    function tabToggle(e) {
+      e.preventDefault();
+
+      $('.faq-tabs-question').removeClass('question-active');
+      $(this).addClass('question-active');
+
+      $('.faq-tabs-answer').removeClass('answer-active');
+      $(this.hash).addClass('answer-active')
+    }
+});
+
+
+   $(document).ready(function() {
+      $("#my-menu").mmenu({
+         slidingSubmenus: true,
+  
+      });
+   });
+
+   
