@@ -9,7 +9,7 @@ $(document).ready(function(){
 		nav: true,
 		navText: false,
     responsive:{
-        0:{
+        320:{
             items:1,
             nav:true
         },

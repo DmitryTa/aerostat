@@ -72,7 +72,7 @@ ul.list-inline{padding:0; margin:0}
 ul.list-inline>li{display: inline-block;} 
 .inline {display: inline}
 .container{ 
-	width: 1200px; 
+	
 	margin: 0 auto;
 	overflow: hidden;
   	box-sizing: border-box;
@@ -698,10 +698,10 @@ footer .row{
 	background-image: url(../img/arrow-slider.png);
 	background-repeat: no-repeat;
 }
-::webkit-scrollbar {
-
-width: 0px;
-
+@media(min-width: 1200px){
+	.container{
+		width: 1200px;
+	}
 }
 
 /*992px-1200px*/
@@ -946,8 +946,9 @@ width: 0px;
 
 @media(max-width: 767px){
 	.container{
-		padding-left: 4%;
-		padding-right: 4%;
+		width: 400px;
+		padding-left: 10px;
+		padding-right: 10px; 
 	}
 	header .col-3,
 	header .col-9{
@@ -957,16 +958,15 @@ width: 0px;
 		display: inline-block;
 	}
 	.icon-align-justify{
-		font-size: 32px;
+		font-size: 30px;
 		margin-left: 5%;
 	}
 	.mobile-menu-text{
-		font-size: 30px;
+		font-size: 26px;
 		font-weight: 500;
-		text-align: center;
 		color: #efefef;
 		display: inline-block;
-		width: 70%;
+		width: 80%;
 		margin: 0;
 	}
 	..promo-block{
@@ -979,8 +979,66 @@ width: 0px;
 		display: none;
 	}
 	.features .col-3{
-		width: 50%;
+		width: 80%;
 	}
+
+	.owl-carousel{
+	width: 245px;
+	}
+	iframe{
+		display: none;
+	}
+	.section-title{
+		font-size: 24px;
+	}
+	.brief p, 
+	.price p,
+	.tabs p{
+		font-size: 14px;
+	}
+	.countdown-amount,
+	.countdown-text {
+    	font-size: 14px;
+	}
+	.countdown-period{
+		font-size: 14px;
+	}
+	.price-form .col-5,
+	.price-form .col-7{
+		width: 80%;
+		text-align: center;
+	}
+	.number-form{
+		margin-bottom: 55px;
+	}
+	.price-form .col-5{
+		margin-bottom: 10px;
+	}
+	.faq-tabs-question{
+		font-size: 14px;
+
+	}
+	.faq-tabs ul,
+	.faq-tabs li{
+		padding-left: 0px;
+		margin-left: 0;
+	}
+	.about-us .col-3, 
+	.instructors .col-3{
+		transform: scale(0.65);
+		padding: 0;
+	}
+	.reviews .col-6,
+	.contacts .col-4{
+		width: 100%;
+		padding: 0;
+		text-align: center;
+	}
+	footer{
+		display: none;
+	}
+	}
+	
 }
 
 
