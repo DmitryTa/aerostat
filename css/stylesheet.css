@@ -945,6 +945,8 @@ footer .row{
 
 @media(max-width: 767px){
 	.container{
+		width: 100%;
+		min-width: 320px;
 		padding-left: 5%;
 		padding-right: 5%; 
 	}
@@ -964,7 +966,7 @@ footer .row{
 		font-weight: 500;
 		color: #efefef;
 		display: inline-block;
-		width: 80%;
+		width: 70%;
 		margin: 0;
 	}
 	..promo-block{
@@ -1039,6 +1041,8 @@ footer .row{
 	footer{
 		display: none;
 	}
+	.question-active:after{
+		display: none;
 	}
 	
 }
