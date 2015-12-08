@@ -945,7 +945,6 @@ footer .row{
 
 @media(max-width: 767px){
 	.container{
-		width: 100%;
 		padding-left: 5%;
 		padding-right: 5%; 
 	}
@@ -994,11 +993,11 @@ footer .row{
 	.brief p, 
 	.price p,
 	.tabs p{
-		font-size: 16px;
+		font-size: 15px;
 	}
 	.countdown-amount,
 	.countdown-text {
-    	font-size: 16px;
+    	font-size: 15px;
 	}
 	.countdown-period{
 		font-size: 14px;
@@ -1015,7 +1014,7 @@ footer .row{
 		margin-bottom: 10px;
 	}
 	.faq-tabs-question{
-		font-size: 16px;
+		font-size: 15px;
 
 	}
 	.faq-tabs ul,
@@ -1025,7 +1024,7 @@ footer .row{
 	}
 	.about-us .col-3, 
 	.instructors .col-3{
-		transform: scale(0.8);
+		transform: scale(0.65);
 		padding: 0;
 	}
 	.reviews .col-6,
@@ -1033,6 +1032,9 @@ footer .row{
 		width: 100%;
 		padding: 0;
 		text-align: center;
+	}
+	.reviews .col-6:first-child{
+		margin-bottom: 30px;
 	}
 	footer{
 		display: none;
