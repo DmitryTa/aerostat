@@ -945,9 +945,9 @@ footer .row{
 
 @media(max-width: 767px){
 	.container{
-		width: 400px;
-		padding-left: 10px;
-		padding-right: 10px; 
+		width: 100%;
+		padding-left: 5%;
+		padding-right: 5%; 
 	}
 	header .col-3,
 	header .col-9{
@@ -978,7 +978,8 @@ footer .row{
 		display: none;
 	}
 	.features .col-3{
-		width: 80%;
+		width: 50%;
+		padding: 0;
 	}
 
 	.owl-carousel{
@@ -993,11 +994,11 @@ footer .row{
 	.brief p, 
 	.price p,
 	.tabs p{
-		font-size: 14px;
+		font-size: 16px;
 	}
 	.countdown-amount,
 	.countdown-text {
-    	font-size: 14px;
+    	font-size: 16px;
 	}
 	.countdown-period{
 		font-size: 14px;
@@ -1014,7 +1015,7 @@ footer .row{
 		margin-bottom: 10px;
 	}
 	.faq-tabs-question{
-		font-size: 14px;
+		font-size: 16px;
 
 	}
 	.faq-tabs ul,
@@ -1024,7 +1025,7 @@ footer .row{
 	}
 	.about-us .col-3, 
 	.instructors .col-3{
-		transform: scale(0.65);
+		transform: scale(0.8);
 		padding: 0;
 	}
 	.reviews .col-6,
