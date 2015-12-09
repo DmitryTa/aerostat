@@ -348,8 +348,17 @@ iframe{
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-
-
+.countdown-amount {
+    font-size: 32px;
+    display: inline-block;
+    margin-left: 29px;
+}
+.countdown-period {
+	font-size: 22px;
+    display: inline-block;
+    margin-left: 6px;
+    text-transform: lowercase;
+}
 
 .countdown-block{
 	background-color: #f2f2f2;
@@ -940,12 +949,11 @@ footer .row{
 	}
 }
 
-/*<768px*/
+/*768px*/
 
 @media(max-width: 767px){
 	.container{
 		width: 100%;
-		min-width: 320px;
 		padding-left: 5%;
 		padding-right: 5%; 
 	}
@@ -961,12 +969,12 @@ footer .row{
 		font-size: 30px;
 	}
 	.mobile-menu-text{
-		font-size: 22px;
+		font-size: 21px;
 		font-weight: 500;
 		color: #efefef;
 		display: inline-block;
 		text-align: center;
-		width: 90%;
+		width: 80%;
 		margin: 0;
 	}
 	.promo-block{
@@ -982,9 +990,11 @@ footer .row{
 		width: 50%;
 		padding: 0;
 	}
-
+	.brief{
+		padding-bottom: 30px;
+	}
 	.owl-carousel{
-	width: 235px;
+		width: 235px;
 	}
 	iframe{
 		display: none;
@@ -997,12 +1007,31 @@ footer .row{
 	.tabs p{
 		font-size: 15px;
 	}
-	.countdown-amount,
+	
 	.countdown-text {
-    	font-size: 15px;
+    	font-size: 18px;
 	}
+	.countdown-amount {
+    	font-size: 26px;
+    	display: inline-block;
+    	margin-left: 15px;
+}
+	.countdown-period {
+		font-size: 22px;
+    	display: inline-block;
+    	margin-left: 4px;
+    	text-transform: lowercase;
+}
 	.countdown-period{
 		font-size: 14px;
+	}
+	.countdown-row {
+    	font-size: 15px;
+    	margin-left: -15px;
+	}
+	.price > .container {
+    padding-top: 40px;
+    padding-bottom: 35px;
 	}
 	.price-form .col-5,
 	.price-form .col-7{
@@ -1017,7 +1046,9 @@ footer .row{
 	}
 	.faq-tabs-question{
 		font-size: 15px;
-
+	}
+	.price-result{
+		display: none;
 	}
 	.faq-tabs ul,
 	.faq-tabs li{
@@ -1027,10 +1058,25 @@ footer .row{
 	.faq p{
 		padding-right: 0;
 	}
+	.about-us{
+		padding: 25px 0;
+	}
+	.instructors{
+		padding-bottom: 30px;
+	}
+	.instructors .section-title{
+		margin-bottom: 30px;
+	}
 	.about-us .col-3, 
 	.instructors .col-3{
-		transform: scale(0.65);
+		transform: scale(0.75);
 		padding: 0;
+	}
+	.about-us .col-3:nth-child(3),
+	.about-us .col-3:nth-child(4),
+	.instructors .col-3:nth-child(3),
+	.instructors .col-3:nth-child(4){
+		margin-top: -25px;
 	}
 	.reviews .col-6,
 	.contacts .col-4{
@@ -1044,10 +1090,15 @@ footer .row{
 	footer{
 		display: none;
 	}
+}
+
+/*768px*/
+
+@media(max-width: 420px){
 	.question-active:after{
 		display: none;
 	}
-	
+
 }
 
 
