@@ -1012,19 +1012,13 @@ footer .row{
     	font-size: 18px;
 	}
 	.countdown-amount {
-    	font-size: 26px;
-    	display: inline-block;
+    	font-size: 22px;
     	margin-left: 15px;
 }
 	.countdown-period {
-		font-size: 22px;
-    	display: inline-block;
+		font-size: 17px;
     	margin-left: 4px;
-    	text-transform: lowercase;
 }
-	.countdown-period{
-		font-size: 14px;
-	}
 	.countdown-row {
     	font-size: 15px;
     	margin-left: -15px;
@@ -1055,7 +1049,8 @@ footer .row{
 		padding-left: 0px;
 		margin-left: 0;
 	}
-	.faq p{
+	.faq p,
+	.price p{
 		padding-right: 0;
 	}
 	.about-us{
@@ -1098,7 +1093,53 @@ footer .row{
 	.question-active:after{
 		display: none;
 	}
-
+	.countdown-amount {
+    	font-size: 18px;
+    	margin-left: 8px;
+	}
+	.countdown-period {
+		font-size: 14px;
+    	margin-left: 4px;
+    }
+    .price-result-number{
+		font-size: 24px;
+    }
+    .price-button{
+    	padding: 0;
+    }
+    .price-number-col{
+    	width: 100%;
+    	text-align: right;
+    	margin-bottom: 20px;
+    	margin-top: -30px;
+    }
+    .about-us .col-3,
+    .instructors .col-3{
+    	width: 100%;
+    	font-size: 0;
+    }
+    .circle-number,
+    .fon, .fon1-2{
+    	display: inline-block;
+    	transform: scale(0.8);
+    	width: 50%;
+    	vertical-align: middle;
+    	margin-left: -80px;
+    }
+    .circle-number + p,
+    .instructors-info{
+    	display: inline-block;
+    	width: 45%;
+    	vertical-align: middle;
+    	padding: 0 0 0 10px;
+    }
+    .about-us .container {
+    	padding: 0 2%;
+	}
+	.about-us .col-3:nth-child(2),
+	.instructors .col-3:nth-child(2){
+		margin-top: -25px;
+	}
 }
 
 
